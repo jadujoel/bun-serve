@@ -7,6 +7,7 @@
   "main": "index.ts",
   "files": [
     "index.ts",
+    "parse.ts",
     "tsconfig.json",
     "package.json",
     "README.md",
