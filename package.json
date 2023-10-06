@@ -1,0 +1,24 @@
+{
+  "name": "bun-serve",
+  "version": "0.0.1",
+  "description": "Serve a directory using bun.",
+  "author": "joel.lof@icloud.com",
+  "license": "MIT",
+  "main": "index.ts",
+  "files": [
+    "index.ts",
+    "tsconfig.json",
+    "package.json",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "postinstall": "chmod +x index.ts"
+  },
+  "devDependencies": {
+    "bun-types": "1.0.4"
+  },
+  "bin": {
+    "bun-serve": "./index.ts"
+  }
+}
