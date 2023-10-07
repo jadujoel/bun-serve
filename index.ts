@@ -1,6 +1,5 @@
 #!/usr/bin/env bun
 
-/// <reference path="./node_modules/bun-types/types.d.ts" />
 import { parse } from './parse'
 
 const {
