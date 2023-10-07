@@ -22,6 +22,7 @@ Bun.serve({
   development: Boolean(development),
   lowMemoryMode: Boolean(lowMemoryMode),
   key: key === undefined ? undefined : String(key),
+  cert: key === undefined ? undefined : String(key).replace(/\.key$/, '.crt'),
   dhParamsFile: dhParamsFile === undefined ? undefined : String(dhParamsFile),
   passphrase: passphrase === undefined ? undefined : String(passphrase),
   async fetch(req) {
